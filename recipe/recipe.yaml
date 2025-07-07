@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: django-mcp-server
-  version: "0.5.4"
+  version: "0.5.6"
   python_min: '3.10'
 
 package:
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/django_mcp_server-${{ version }}.tar.gz
-  sha256: ead3e272ae056dadbf0bc6e959240e0f3c070a38b0fd08aa251df216e97b74a0
+  sha256: d3467b7e7b24627ca0aa6b8a09a35e370523f3a8b2da7d91200c3e394e39aeb1
 
 build:
   number: 0
